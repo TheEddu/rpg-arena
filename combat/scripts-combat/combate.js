@@ -148,7 +148,7 @@ function mostrarBotaoVoltar() {
   }
   container.innerHTML = `<button class="botao-voltar" id="btn-voltar-selecao">Voltar para Seleção</button>`;
   document.getElementById("btn-voltar-selecao").onclick = () => {
-    window.location.href = "/../index.html";
+    window.location.href = "/rpg-arena/index.html";
   };
 }
 
