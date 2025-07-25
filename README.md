@@ -159,3 +159,7 @@ O RPG Arena é mais que um jogo, é um estudo prático sobre como aplicar concei
 Cada função e arquivo foi elaborado para promover clareza, expansão e diversão, com lógica transparente e interface envolvente.
 
 ---
+
+## Observações
+- Imagens geradas por IA.
+

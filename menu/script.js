@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     iniciarBtn.onclick = () => {
       sessionStorage.setItem("personagemSelecionado", JSON.stringify(jogadorSelecionado));
       sessionStorage.setItem("oponenteSelecionado", JSON.stringify(oponenteSelecionado));
-      window.location.href = "../combat/combat.html";
+      window.location.href = "combat/combat.html";
     };
     descElem.appendChild(iniciarBtn);
   }
