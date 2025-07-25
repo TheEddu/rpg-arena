@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>RPG Arena</title>
+  <link rel="stylesheet" href="../assets/css/style-combat.css" />
+</head>
+<body class="bg-arena">
+  <h1 class="titulo-principal">RPG Arena</h1>
+  <h3 id="turno-info" class="turno-info"></h3>
+  
+  <div id="arena">
+    <div class="arena-lutadores">
+      <div class="lutador" id="lutador-jogador">
+        <div class="hud">
+          <span class="nome-lutador" id="nome-jogador"></span>
+          <div class="barra-de-vida" id="vida-jogador"></div>
+          <div id="hp-jogador" class="hp-info"></div>
+        </div>
+        <img id="img-jogador" src="" alt="" class="personagem-img">
+        <div class="acoes" id="acoes-jogador"></div>
+        <button id="btn-especial-jogador" class="btn-especial"></button>
+      </div>
+
+      <div id="dano-central" class="dano-central"></div>
+
+      <div class="lutador" id="lutador-oponente">
+        <div class="hud">
+          <span class="nome-lutador" id="nome-oponente"></span>
+          <div class="barra-de-vida" id="vida-oponente"></div>
+          <div id="hp-oponente" class="hp-info"></div>
+        </div>
+        <img id="img-oponente" src="" alt="" class="personagem-img">
+        <div class="acoes" id="acoes-oponente"></div>
+        <button id="btn-especial-oponente" class="btn-especial"></button>
+      </div>      
+    </div>
+  </div>
+
+  <script type="module" src="./scripts-combat/main.js"></script>
+</body>
+</html>
+</body>
+</html>

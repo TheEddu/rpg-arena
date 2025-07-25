@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.grid-personagens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;  
+}
+
+.personagem {
+  cursor: pointer;
+  padding: 20px;
+  border: 2px solid transparent;
+  transition: border 0.3s, transform 0.3s;
+}
+
+.personagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 150px;
+}
+
+.personagem:hover {
+  border: 2px solid #ff0;
+  transform: scale(1.05);
+}
+
+.personagem.selecionado {
+  border: 2px solid #f00;
+}
+
+.detalhes-personagem {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+.detalhes-personagem img {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.btn-selecao {
+  background: linear-gradient(90deg, #6366f1 60%, #a5b4fc 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  margin-top: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+.btn-selecao:hover {
+  background: linear-gradient(90deg, #2563eb 60%, #60a5fa 100%);
+  transform: scale(1.05);
+}
+.botao-iniciar {
+  background: linear-gradient(90deg, #22c55e 60%, #bbf7d0 100%);
+  color: #222;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 22px;
+  margin-top: 18px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+.botao-iniciar:hover {
+  background: linear-gradient(90deg, #16a34a 60%, #bbf7d0 100%);
+  transform: scale(1.07);
+}
+
+.botao-voltar {
+  background: linear-gradient(90deg, #f87171 60%, #fecaca 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 22px;
+  margin-top: 18px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}

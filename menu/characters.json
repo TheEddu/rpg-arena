@@ -1,0 +1,164 @@
+{
+  "personagens": [
+    {
+      "nome": "Cavaleiro",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/cavaleiro.png",
+      "tecnicas": {
+        "Corte Simples": 15,
+        "Corte Duplo": 20,
+        "Corte Aéreo": 25,
+        "Perfuração": 30
+      },
+      "regeneracao": 0,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Necromante",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/necromante.png",
+      "tecnicas": {
+        "Névoa Sombria": 10,
+        "Chamas": 15,
+        "Orbe do Caos": 20,
+        "Multidão Esquelética": 35
+      },
+      "regeneracao": 5,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Maga",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/maga.png",
+      "tecnicas": {
+        "Bola de Fogo": 12,
+        "Raio Arcano": 18,
+        "Tempestade de Gelo": 22,
+        "Explosão Mística": 32
+      },
+      "regeneracao": 5,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Arqueira",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/arqueira.png",
+      "tecnicas": {
+        "Flecha Rápida": 10,
+        "Flecha Flamejante": 15,
+        "Flecha Perfurante": 20,
+        "Chuva de Flechas": 30
+      },
+      "regeneracao": 0,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Elfa",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/elfa.png",
+      "tecnicas": {
+        "Toque da Floresta": 10,
+        "Luz Estelar": 15,
+        "Vento Cortante": 20,
+        "Encantamento Lunar": 35
+      },
+      "regeneracao": 3,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Berserker",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/berserker.png",
+      "tecnicas": {
+        "Lâmina Brutal": 15,
+        "Fúria Selvagem": 20,
+        "Corte Frenético": 25,
+        "Ira Berserker": 40
+      },
+      "regeneracao": 5,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Fada",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/fada.png",
+      "tecnicas": {
+        "Pó Mágico": 10,
+        "Brilho Encantado": 15,
+        "Dança das Asas": 20,
+        "Luz Celestial": 32
+      },
+      "regeneracao": 5,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Dragon Slayer",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/dragon-slayer.png",
+      "tecnicas": {
+        "Corte do Dragão": 15,
+        "Lança Flamejante": 20,
+        "Rugido do Caçador": 25,
+        "Chama do Matador": 35
+      },
+      "regeneracao": 0,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Samurai",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/samurai.png",
+      "tecnicas": {
+        "Corte Veloz": 15,
+        "Golpe do Vento": 20,
+        "Técnica do Lótus": 25,
+        "Tempestade de Espadas": 40
+      },
+      "regeneracao": 0,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    },
+    {
+      "nome": "Goblin",
+      "vida": 100,
+      "vidaMaxima": 100,
+      "image": "./assets/images/goblin.png",
+      "tecnicas": {
+        "Golpe Rápido": 10,
+        "Armadilha Explosiva": 15,
+        "Ataque Surpresa": 20,
+        "Fúria Goblin": 30
+      },
+      "regeneracao": 0,
+      "especial": "ESPECIAL",
+      "usouEspecial": false,
+      "usouEspecialAnterior": false
+    }
+  ]
+}
